@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: movimoon-backend
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: TMDB_API_KEY
+        sync: false
+      - key: SITE_DOMAIN
+        value: movimoon.blogspot.com
