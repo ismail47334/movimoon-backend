@@ -1,7 +1,7 @@
 {
   "name": "movimoon-backend",
-  "version": "3.0.0",
-  "description": "MoviMoon Backend v3 - MultiMovies Player Only + Working Filter",
+  "version": "5.0.0",
+  "description": "MoviMoon Backend v5 FINAL - slast430did IMDB first, multimovies Title player only",
   "main": "apiServer.js",
   "scripts": {
     "start": "node apiServer.js"
@@ -10,8 +10,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "express": "^4.21.2",
-    "node-fetch": "^2.7.0",
-    "cheerio": "^1.0.0"
+    "node-fetch": "^2.7.0"
   },
   "engines": {
     "node": ">=18.0.0"
